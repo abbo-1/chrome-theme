@@ -1,23 +1,18 @@
 {
-	"name": "Developer Edition Dark",
-	"short_name": "DevEdtn Dark",
+	"name": "afty_yellow",
+	"short_name": "aftyellow",
 	"manifest_version": 2,
-	"version": "2.1",
+	"version": "1.0",
 	"description": "A Chrome theme inspired by Firefox's Developer Edition Dark theme. Updated for Chrome's material redesign 2.",
 	"theme":{
-		"images":{
-			"theme_frame":"images/theme_frame.png",
-			"theme_toolbar":"images/theme_toolbar.png",
-			"theme_tab_background":"images/theme_tab_background.png"
-		},
 		"colors":{
-			"frame":[39,43,53],
-			"frame_incognito":[39,43,53],
-			"frame_inactive":[39,43,53],
+			"frame":[235,213,99],
+			"frame_incognito":[66,66,66],
+			"frame_inactive":[207,199,159],
 			"frame_incognito_inactive":[39,43,53],
-			"toolbar":[39,43,53],
+			"toolbar":[42,46,52],
 			"tab_text":[255,255,255],
-			"tab_background_text":[255,255,255],
+			"tab_background_text":[0,0,0],
 			"bookmark_text":[255,255,255]
 		},
 		"tints":{
@@ -26,11 +21,5 @@
 			"frame_incognito_inactive":[-1,-1,-1],
 			"background_tab":[-1,-1,-1]
 		}
-	},
-	"icons":{
-		"16":"icons/16.png",
-		"32":"icons/32.png",
-		"48":"icons/48.png",
-		"128":"icons/128.png"
 	}
 }
